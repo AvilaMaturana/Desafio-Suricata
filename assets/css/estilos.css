@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #E83E8C;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* NUESTROS PRODUCTOS */
+
+#Nuestros-Productos h1{
+    color: #707070;
+}
+
+#Nuestros-Productos .image-top {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    
+}
+
+#Nuestros-Productos .row {
+     color: #373A3C;          
+}
+
+#Nuestros-Productos #Texto {
+    font-size: 11px;       
+}
+
+#Nuestros-Productos .card button {
+    font-size: 11px;
+    color: #1C7CD5;   
+}
+
+/* INFO */
+
+#Icon-section {
+    background-color: #17A2B8;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #E83E8C;
+}
+
+
+@media (max-width: 576px){
+
+    footer img{
+        width: 62px;
+           
+    }
+
+}
